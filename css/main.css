@@ -91,7 +91,7 @@ section { display: flex; }
     }
 /*********************************************************/
 .hero {
-      background-image: url('../img/hero.img');
+      background-image: url('../img/hero.jpg');
       height: 400px;
       background-size: cover;
       background-position: center center;
@@ -117,7 +117,9 @@ section { display: flex; }
          border-bottom: 1px solid #a0a0a0;
          padding: 25px 0;
 }
- .banner img{ widht: 250px; }
+ .banner img{
+   width: 250px;
+  }
  .banner-text{
          font-size: 30px;
          font-weight: 700;
@@ -127,7 +129,7 @@ section { display: flex; }
  }
 .banner-text > div: last-child {
        font-size: 16px;
-      font-weight: 400;
+      font-weight: 400px;
       margin-top: 5px;
 }
   .category { flex: 0 0 25%; padding: 0 15px; }
